@@ -53,7 +53,7 @@ cd Fruit-classifier-
 pip install -r requirements.txt
 ```
 
-__Create a `.env` file and add your OpenAI API key:-__
+Create a `.env` file and add your OpenAI API key:-
 
 ```
 OPENAI_API_KEY=your_openai_key_here
