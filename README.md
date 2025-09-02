@@ -37,7 +37,7 @@ Upload a fruit image → Get prediction → Receive GPT explanation
 ```
 Fruit-classifier/
 ├── fruits_model.h5           # Trained Keras model
-├── app.py                    # Main Gradio interface
+├── agent.py                    # Main Gradio interface
 ├── agent.py                  # Classification + GPT logic
 ├── requirements.txt          # Dependencies
 └── README.md                 # Project documentation
@@ -62,11 +62,13 @@ OPENAI_API_KEY=your_openai_key_here
 ---
 
 ## 🧪 Usage
-
+```To run the trained model:
+python fruit.ipynb  Run all via jupyter notebook
+```
 Run the Gradio app locally:
 
 ```bash
-python app.py
+python agent.py
 ```
 
 Or test the classifier directly:
