@@ -55,7 +55,13 @@ def ask_openai(image, question: str):
     print(answer)
     return answer
 # 🌐 Gradio Interface
-
+gr.Interface(
+    fn=ask_openai,
+    inputs=gr.Image(type="pil"),
+    outputs="text",
+    title="Fruit Classifier with OpenAI Explanation",
+    description="Upload a fruit image to classify it and get a GPT-generated explanation."
+).launch()
 
 # Example usage
 if __name__ == "__main__":
