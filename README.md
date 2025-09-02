@@ -98,6 +98,9 @@ model.save("fruits_model.h5")
 You can follow [TensorFlow Hub’s image retraining tutorial](https://tensorflow.google.cn/hub/tutorials/tf2_image_retraining?hl=en) for guidance.
 
 ---
+###  A little preview
+
+![Sample preview](images/preview.png)
 
 ### 🤝 Contributing
 
