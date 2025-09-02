@@ -31,6 +31,31 @@ image=Image.open(image_path)
 d = classify_image(image)
 print(d)
 # Function to use OpenAI to explain the prediction
+def ask_openai(image, question: str):
+    class_idx, confidence = classify_image(image)
+    
+    # Now let OpenAI "explain" the results in plain English
+    prompt = f"""
+    I have a trained fruit classification model.
+    For the given image, the model predicts class index {class_idx} with confidence {confidence:.2f}.
+    Labels include: apple fruit, banana fruit, cherry fruit, chickoo fruit, grape fruit, kiwi fruit, mango fruit, orange fruit, strawberry fruit.
+
+    User Question: {"what are the benefits of eating",{class_idx}}
+    """
+    
+    response = client.chat.completions.create(
+        model="gpt-4.1-mini",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that explains model predictions."},
+            {"role": "user", "content": prompt}
+        ]
+    )
+    
+    answer = response.choices[0].message.content
+    print(answer)
+    return answer
+# 🌐 Gradio Interface
+
 
 # Example usage
 if __name__ == "__main__":
