@@ -1,4 +1,4 @@
-## 🍓 Fruit Classifier with OpenAI Explanation
+#🍓 Fruit Classifier with OpenAI Explanation
 
 A deep learning-powered image classification tool that identifies fruit types from uploaded images and provides natural language explanations using OpenAI's GPT models. Built with TensorFlow, Gradio, and OpenAI API, this project blends computer vision with generative AI to create an interactive and educational experience.
 
@@ -53,7 +53,7 @@ cd Fruit-classifier-
 pip install -r requirements.txt
 ```
 
-Create a `.env` file and add your OpenAI API key:
+__Create a `.env` file and add your OpenAI API key:-__
 
 ```
 OPENAI_API_KEY=your_openai_key_here
