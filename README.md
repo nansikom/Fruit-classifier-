@@ -1,10 +1,10 @@
-# 🍓 Fruit Classifier with OpenAI Explanation
+## 🍓 Fruit Classifier with OpenAI Explanation
 
 A deep learning-powered image classification tool that identifies fruit types from uploaded images and provides natural language explanations using OpenAI's GPT models. Built with TensorFlow, Gradio, and OpenAI API, this project blends computer vision with generative AI to create an interactive and educational experience.
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - ✅ Classifies fruit images using a trained CNN model (`fruits_model.h5`)
 - 🧠 Generates human-readable explanations of predictions using OpenAI's GPT
@@ -13,7 +13,7 @@ A deep learning-powered image classification tool that identifies fruit types fr
 
 ---
 
-## 🧰 Tech Stack
+### 🧰 Tech Stack
 
 | Tool/Library     | Purpose                          |
 |------------------|----------------------------------|
@@ -25,14 +25,14 @@ A deep learning-powered image classification tool that identifies fruit types fr
 
 ---
 
-## 📸 Demo
+### 📸 Demo
 
 Upload a fruit image → Get prediction → Receive GPT explanation  
 *(Add a screenshot or GIF here if available)*
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```
 Fruit-classifier/
@@ -45,7 +45,7 @@ Fruit-classifier/
 
 ---
 
-## ⚙️ Installation
+### ⚙️ Installation
 
 ```bash
 git clone https://github.com/nansikom/Fruit-classifier-.git
@@ -61,7 +61,7 @@ OPENAI_API_KEY=your_openai_key_here
 
 ---
 
-## 🧪 Usage
+### 🧪 Usage
 ```To run the trained model:
 python fruit.ipynb  Run all via jupyter notebook
 ```
@@ -84,7 +84,7 @@ print(response)
 
 ---
 
-## 🧠 Model Training (Optional)
+### 🧠 Model Training (Optional)
 
 If you'd like to retrain the model:
 
@@ -99,7 +99,7 @@ You can follow [TensorFlow Hub’s image retraining tutorial](https://tensorflow
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Pull requests are welcome! If you'd like to add new fruit classes, improve the UI, or integrate other LLMs, feel free to fork and submit changes.
 
