@@ -91,6 +91,7 @@ If you'd like to retrain the model:
 ```python
 # Load and preprocess your dataset
 # Build CNN architecture
+Use the model.fit method to train your model
 # Train and save model
 model.save("fruits_model.h5")
 ```
@@ -99,7 +100,7 @@ You can follow [TensorFlow Hub’s image retraining tutorial](https://tensorflow
 
 ---
 ###  A little preview
-
+Utilised the predict method from tensor flow to run a prediction against a test image.
 ![Sample preview](images/preview.png)
 
 ### 🤝 Contributing
