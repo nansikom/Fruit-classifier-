@@ -13,12 +13,12 @@ A deep learning-powered image classification tool that identifies fruit types fr
 
 ---
 ### Steps to make project
-Data collection from kaggle 
-Scikit learn split into train and test dataset 
-Restructure model layers
-Pass in the data(tensors to the model)
-Train the model 
-save the model
+- Data collection from kaggle 
+- Scikit learn split into train and test dataset 
+- Restructure model layers
+- Pass in the data(tensors to the model)
+- Train the model 
+- save the model
 ### 🧰 Tech Stack
 
 | Tool/Library     | Purpose                          |
