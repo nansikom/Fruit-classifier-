@@ -1,4 +1,4 @@
-#🍓 Fruit Classifier with OpenAI Explanation
+#🍓 Fruit Classification Model Building with Frontend MVP Merge
 
 A deep learning-powered image classification tool that identifies fruit types from uploaded images and provides natural language explanations using OpenAI's GPT models. Built with TensorFlow, Gradio, and OpenAI API, this project blends computer vision with generative AI to create an interactive and educational experience.
 
